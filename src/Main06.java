@@ -5,5 +5,6 @@ public class Main06 {
 		h.run();
 		SuperHero06 sh = new SuperHero06();
 		sh.run();
+		sh.land();
 	}
 }
