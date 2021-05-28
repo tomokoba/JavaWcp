@@ -4,10 +4,10 @@ public class Hero06 {
 	int hp = 100;
 
 	// 戦う
-	public void attack(Matango m) {
+	public void attack(Matango06 m) {
 		System.out.println(this.name + "の攻撃！");
 		m.hp -= 5;
-		System.out.println("5ポイントのダメージをあたえた！");
+		System.out.println(m.suffix + "に5ポイントのダメージをあたえた！");
 	}
 
 	public final void slip() { // 子クラスでオーバーライド禁止

@@ -12,4 +12,10 @@ public class SuperHero06 extends Hero06 { // Heroクラスを継承
 	public void run() {
 		System.out.println(this.name + "は撤退した！");
 	}
+	public void attack(Matango06 m) {
+		super.attack(m);
+		if (this.flying) {
+			super.attack(m);
+		}
+	}
 }

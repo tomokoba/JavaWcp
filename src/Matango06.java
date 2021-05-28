@@ -1,0 +1,9 @@
+
+public class Matango06 {
+	int hp;
+	final int LEVEL = 10; // フィールドを定数として宣言
+	char suffix;
+	public void run() {
+		System.out.println("お化けキノコ" + this.suffix + "は逃げ出した！");
+	}
+}

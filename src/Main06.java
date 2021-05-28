@@ -6,5 +6,8 @@ public class Main06 {
 		SuperHero06 sh = new SuperHero06();
 		sh.run();
 		sh.land();
+		Matango06 m = new Matango06();
+		m.suffix = 'A';
+		sh.attack(m);
 	}
 }
