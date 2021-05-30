@@ -19,4 +19,7 @@ public class Hero06 {
 	public void run() {
 		System.out.println(this.name + "は逃げ出した！");
 	}
+	public Hero06() {
+		System.out.println("Hero06のコンストラクタが動作");
+	}
 }

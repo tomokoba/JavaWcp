@@ -9,5 +9,6 @@ public class Main06 {
 		Matango06 m = new Matango06();
 		m.suffix = 'A';
 		sh.attack(m);
+		Weapon06 w = new Weapon06();
 	}
 }

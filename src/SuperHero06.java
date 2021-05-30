@@ -18,4 +18,8 @@ public class SuperHero06 extends Hero06 { // Heroクラスを継承
 			super.attack(m);
 		}
 	}
+	public SuperHero06() {
+		super();
+		System.out.println("SuperHero06のコンストラクタが動作");
+	}
 }
