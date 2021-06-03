@@ -4,6 +4,7 @@ public class Main07 {
 		Hero07 h = new Hero07();
 		Matango07 m = new Matango07('A');
 		m.attack(h);
+		h.attack(m);
 		PoisonMatango07 pm = new PoisonMatango07('B');
 		pm.attack(h);
 	}
